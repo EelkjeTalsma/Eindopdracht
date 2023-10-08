@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eindopdracht</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="container">
+    <nav>
+        <img src="images/valorant.webp" id="logo">
+        <div class="navbar">
+            <a href="#about">About</a>
+            <a href="#related">Related</a>
+            <a href="#formtotal">Sign up</a>
+            <a class="active" href="#">Home</a>
+    </nav>
+
+    <header class="About" id="about">
+
+        <div class="headertop">
+            <h1>Welcome to valorant!</h1>
+            <p>Valorant is a team-based first-person tactical hero shooter set in the near future.
+                Players play as one of a set of Agents, characters based on several countries and cultures around
+                the world.
+                In the main game mode, players are assigned to either the attacking or defending team with each team
+                having five players on it.
+                Agents have unique abilities, each requiring charges, as well as a unique ultimate ability that
+                requires charging through kills, deaths, orbs, or objectives.</p>
+
+            <div>
+                <a class="headerbottom" href="#">About</a>
+
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section id="related">
+            <h2>Related</h2>
+            <div class="relateditems">
+                <article class="article1">
+                    <img src="images/premier.webp">
+                    <div class="products">
+                        <h3>BRING IT // Premier Global Launch</h3>
+                        <p>
+                            Premier is a tournament game mode in VALORANT. Matches use the same in-game rules as
+                            Competitive, but with a focus on top-tier competition and playing together as one squad
+                            throughout a tournament structure, including additional features taken from pro play such as
+                            map pick/ban phases.
+                            At its highest level, it will serve as a direct connection from the playerbase to the
+                            professional scene.
+                        </p>
+                        <a class="articlebutton">More</a>
+                    </div>
+                </article>
+
+                <article class="article2">
+                    <img src="images/gaiasveng.jpg">
+                    <div class="products">
+                        <h3>NEW BUNDLE // Gaia's vengeance 2.0</h3>
+                        <p>
+                            Gaia's Vengeance, one of the most popular collections introduced in Valorant, is making a
+                            comeback. The latest news indicates that Gaia's Vengeance 2.0 is in the works and will make
+                            its way into the popular shooter very soon.
+                            The community feedback to the original skin bundle being highly positive has led to Riot
+                            forging a new iteration that will cater to a few other weapons.
+                        </p>
+                        <a class="articlebutton">More</a>
+                    </div>
+                </article>
+
+                <article class="article3">
+                    <img src="images/sunset.webp">
+                    <div class="products">
+                        <h3>SUNSET // Official Map Trailer</h3>
+                        <p>
+                            Sunset is one of VALORANT's more traditional maps with two sites and three lanes. Its one
+                            additional feature is a mechanical door found between B Market and Mid Courtyard.
+                            Players can use a switch on the Market side of the door to close or open it. This door is
+                            impenetrable while closed but has 500 HP, allowing players to damage and eventually destroy
+                            it.
+                        </p>
+                        <a class="articlebutton">More</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="formtotal">
+            <h1>Sign Up</h1>
+            <form id="form" action="bedankt.html" method="POST">
+                <div class="widthform">
+                    <div class="nameform">
+                        <div>
+                            <label for="first-name">First name</label>
+                            <input name="first-name" id="first-name" type="text" placeholder="First name" required />
+                        </div>
+                        <div>
+                            <label for="last-name">Last name</label>
+                            <input name="last-name" id="last-name" type="text" placeholder="Last name" required />
+                        </div>
+                    </div>
+
+                    <div class="mail">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email" required />
+                    </div>
+                    <div class="username">
+                        <div>
+                            <label for="username">Username</label>
+                            <input name="username" id="username" type="text" placeholder="Username" required />
+                        </div>
+                        <div>
+                            <label for="birthdate">Date of Birth</label>
+                            <input name="birthdate" id="birthdate" type="date" placeholder="Date of Birth" required />
+                        </div>
+                    </div>
+                    <div class="robotbox">
+                        <label for="robot">Are you a robot?</label>
+                        <div class="robotoptions">
+                            <input type="checkbox" name="robotno" class="robotno" value="no" /><label
+                                for="option">No</label>
+                        </div>
+                    </div>
+
+                    <div class="buttonsign">
+                        <button>Sign Up</button>
+                    </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footerlogo">
+            <img src="images/valorant.webp">
+            <p>Copyright 2023 Eelkje Talsma</p>
+            <div class="social">
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-facebook"></i>
+            </div>
+        </div>
+
+        <div class="footerinfo">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Cookie Policy</a>
+            <a href="#form">Contact</a>
+        </div>
+    </footer>
+</body>
+
+</html>
